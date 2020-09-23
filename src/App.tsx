@@ -16,12 +16,11 @@ import Footer from './components/Footer/Footer';
 function App() {
   return (
     <div className="App">
-      <Header />
-
       <BrowserRouter>
 				<div className="main">
 					<Header />
 				  		<Switch>
+                <div>Here's a Compnent</div>
 					  		<Route exact path="/" component={Home} />
 					  		{/* <Route path="/about" component={About} />
 					  		<Route path="/cookWare" component={CookWare} />

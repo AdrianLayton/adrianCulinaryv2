@@ -1,1 +1,135 @@
 .Header {}
+
+.preview {
+	color: white;
+	background-color: #FF7021;
+	width: 70%;
+	margin-left: 15%;
+	margin-right: 15%;
+	padding: 1.1em;
+	text-align: center;
+	border-radius: 1.5em;
+	font-family: Arial;
+	font-size: 1em;
+	font-weight: bold;
+}
+
+.header {
+	/*background-color: rgb(247,247,247);*/
+	background-color: #3d414a;
+	padding-top: .75em;
+	padding-bottom: .75em;
+	margin: .5em auto;
+	border-radius: 0em;
+	width: 100%;
+	/* max-width: 100%; */
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: space-between;
+	min-height: auto;
+	-moz-box-shadow:    inset 0 0 .25em rgb(30,30,30);
+	-webkit-box-shadow: inset 0 0 .25em rgb(30,30,30);
+	box-shadow:         inset 0 0 .25em rgb(30,30,30);
+}
+
+.hidden {
+	display: none;
+	visibility: hidden;
+}
+
+.main {
+	width: 100%;
+	margin-bottom: 4em;
+}
+
+div.logo-container  {
+	display: block;
+	margin-top: 2em;
+	top: 1.5em;	
+	/*flex-basis: 305px;*/
+	background-color: rgb(250,250,250);
+
+}
+
+
+
+div.mob-logo-container {
+	visibility: hidden;
+	display: none;
+}
+
+.logo-left {
+	display: none;
+	visibility: hidden;
+}
+
+
+.nav-primary {
+	/*position: absolute;
+	top: 1em;
+	left: 2.5em;
+	right: 2.5em;
+	margin-bottom: 5em;*/
+	padding-bottom: 1.25rem;
+} 
+.nav-primary
+.menu {
+	text-decoration: none;
+	list-style: none;
+	padding-left: 5em;
+	right: 2.5em;
+	display: inline;
+	float: right;
+	font-size: 1em;
+}
+
+
+
+.nav-items {
+	text-decoration-style: none;
+	padding: 1em 1.5em;
+	margin-left: 1em;
+	margin-right: 1em;
+	font-weight: bold;
+	font-size: 1em;
+	float: left;
+	position: relative;
+	top: 2em;
+	right: 1em;
+	text-align: center; 
+	color: #3d414a !important;
+	background-color: #FF7021 !important; 
+	border: .2em rgb(141,145,154) solid;
+	border-radius: .25em;
+	text-decoration-color: orange;
+	/*text-decoration: underline;*/
+}
+
+.nav-items:hover {
+	border: .2em white solid;
+	transition-delay: .075s;
+	transition-duration: .3s;
+	transition-timing-function: ease-in-out;
+}
+
+.nav-items li {
+
+	text-align: center;
+	font-family: "Comfortaa",cursive;
+}
+
+.header
+.logo-container {
+	border-radius: 7%;
+	background: #fffeeb;
+}
+
+.header
+.logo-container
+#nav-logo {
+	height: 7.5em;
+	width: 11em;
+	
+}
